@@ -8,6 +8,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/carouFredSel.js"></script>
@@ -26,10 +27,10 @@
 			<nav>
 				<ul>
 					<!--<li><a href="" class="active">Home</a></li>-->
-					<li><a href="">Our Story</a></li>
-					<li><a href="">Menu</a></li>
-					<li><a href="">Reservations</a></li>
-					<li><a href="">Reviews</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#featured">Featured Dishes</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -39,10 +40,10 @@
 	<!--  start hero  -->
 	<section class="hero">
 		<div class="caption">
-			<h3>Swad Restaurant and Indo-Pak Grocery</h3>
+			<h3>SWAD</h3>
 			<h4>
 				<span class="rsep"></span>
-				Home-Cooked and Vegatarian Dishes
+				Indo-Pak Restuarant and Grocery
 				<span class="lsep"></span>
 			</h4>
 
@@ -51,47 +52,73 @@
 
 
 	<!--  start menu  -->
-	<section class="menu">
+	<section id="menu" class="menu">
 		<div class="wrapper">
 			<div class="menu_title">
 				<h2>The Menu</h2>
 			</div>
 
 			<div class="mean_menu">
+				<h4 class="menu-heading">Appetizers/Chaat</h4>
 				<!--  left menu row  -->
 				<article class="lmenu">
 					<ul>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Voluptate cillum fugiat.</h3>
-								<p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
+								<h3 class="item_name">Samosas (2)</h3>
+								<p class="item_desc">Potatoes, onions and peas stuffed in a crisp, flaky crust</p>
 							</div>
-							<h4 class="price">$50</h4>
+							<h4 class="price">$4.50</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Bhel</h3>
+								<p class="item_desc">Rice, fried noodles, potatoes, onions with sweet and sour chutney</p>
+							</div>
+							<h4 class="price">$4.50</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Sev Puri</h3>
+								<p class="item_desc">Puries stuffed with tomato, onion, and potato, topped with chutney</p>
+							</div>
+							<h4 class="price">$4.50</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Dahi Puri</h3>
+								<p class="item_desc">Puries stuffed with spiced potatoes and beans topped with yogurt and chutney</p>
+							</div>
+							<h4 class="price">$4.50</h4>
 							<span class="separator"></span>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Metus varius laoreet.</h3>
-								<p class="item_desc">Chicken, mozzarella cheese, onions.</p>
+								<h3 class="item_name">Pani Puri</h3>
+								<p class="item_desc">Puries with potatoes, chickpeas, and various chutneys</p>
 							</div>
-							<h4 class="price">$62</h4>
-							<span class="separator"></span>
+							<h4 class="price">$4.50</h4>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Donec sodales magna.</h3>
-								<p class="item_desc">Tuna, Sweetcorn, Cheese.</p>
+								<h3 class="item_name">Samosa Bhel</h3>
+								<p class="item_desc">Bhel mixed with crushed samosa</p>
 							</div>
-							<h4 class="price">$25</h4>
-							<span class="separator"></span>
+							<h4 class="price">$5.95</h4>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Saugue velit cursus.</h3>
-								<p class="item_desc">Pineapple, Minced Beef, Cheese.</p>
+								<h3 class="item_name">Ragda Bhel</h3>
+								<p class="item_desc">Bhel mixed with crushed chickpeas</p>
 							</div>
-							<h4 class="price">$30</h4>
-							<span class="separator"></span>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Samosa Chaat</h3>
+								<p class="item_desc">Deep fried pastry stuffed with potatoes and chickpeas; various toppings</p>
+							</div>
+							<h4 class="price">$6.95</h4>
 						</li>
 					</ul>
 				</article>
@@ -101,35 +128,80 @@
 					<ul>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Arcu pede enim justo.</h3>
-								<p class="item_desc">Tuna, Sweetcorn, Cheese.</p>
+								<h3 class="item_name">Papadi Chaat</h3>
+								<p class="item_desc">Chips topped with potato, chickpea, yogurt and chutney</p>
 							</div>
-							<h4 class="price">$45</h4>
-							<span class="separator"></span>
+							<h4 class="price">$6.95</h4>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Cras dapibussemper nisi.</h3>
-								<p class="item_desc">Pineapple, Minced Beef, Cheese.</p>
+								<h3 class="item_name">Aloo Tikki Chole</h3>
+								<p class="item_desc">Spicy potato patty served with green chutney over chickpeas</p>
 							</div>
-							<h4 class="price">$32</h4>
-							<span class="separator"></span>
+							<h4 class="price">$6.95</h4>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Quam semper libero.</h3>
-								<p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
+								<h3 class="item_name">Dahi Masal</h3>
+								<p class="item_desc">Potato, onion and tomato curry topped with noodles and yogurt</p>
 							</div>
-							<h4 class="price">$15</h4>
-							<span class="separator"></span>
+							<h4 class="price">$6.95</h4>
 						</li>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Nam eget dui Etiam.</h3>
-								<p class="item_desc">Chicken, mozzarella cheese, onions.</p>
+								<h3 class="item_name">Potato Bonda (3)</h3>
+								<p class="item_desc">Potato dumpling with chickpea flour and green chile</p>
 							</div>
-							<h4 class="price">$35</h4>
-							<span class="separator"></span>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Pau Wada</h3>
+								<p class="item_desc">Potato wada served over bread rolls</p>
+							</div>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Potato Pakora (8)</h3>
+								<p class="item_desc">Potato fritters with gram flour batter</p>
+							</div>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Mixed Pakora (8)</h3>
+								<p class="item_desc">Potato, zucchini &amp squash slices deep fried with gram flour batter</p>
+							</div>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Onion Pakora (8)</h3>
+								<p class="item_desc"></p>
+							</div>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Green Chili Pakora (6)</h3>
+								<p class="item_desc"></p>
+							</div>
+							<h4 class="price">$5.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Chili Paneer Pakora (6)</h3>
+								<p class="item_desc">Homemade cheese cubes stuffed in jalapeno and deep fried</p>
+							</div>
+							<h4 class="price">$6.95</h4>
+						</li>
+						<li>
+							<div class="item_info">
+								<h3 class="item_name">Chole Puri (3)</h3>
+								<p class="item_desc">Chickpeas served with 3 puffy breads</p>
+							</div>
+							<h4 class="price">$7.95</h4>
 						</li>
 					</ul>
 				</article>
@@ -137,15 +209,16 @@
 
 			<!--  hidden menu items  -->
 			<div class="hidden_items">
+				<h4 class="menu-heading">South Indian Specials</h4>
 				<!--  left menu row  -->
 				<article class="lmenu">
 					<ul>
 						<li>
 							<div class="item_info">
-								<h3 class="item_name">Voluptate cillum fugiat.</h3>
-								<p class="item_desc">Cheese, tomato, mushrooms, onions.</p>
+								<h3 class="item_name">Ildi Sambar</h3>
+								<p class="item_desc"></p>
 							</div>
-							<h4 class="price">$50</h4>
+							<h4 class="price">$</h4>
 						<span class="separator"></span>
 						</li>
 						<li>
@@ -226,7 +299,7 @@
 
 
 	<!--  start featured dishes  -->
-	<section class="featured_dishes">
+	<section id="featured" class="featured_dishes">
 		<div class="wrapper">
 			<section class="info">
 				<div class="title">
@@ -247,64 +320,76 @@
 						<a href="#"><h2>Fugiat nulla sint</h2></a>
 						<h3>$30</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
 				</article>
 
 				<article>
 					<div class="dishe_img">
-						<a href="#"><img src="swad-images/thali-good.jpg" alt="" title=""/></a>
+						<a href="#"><img src="swad-images/baignan-bharta.jpg" alt="" title=""/></a>
 					</div>
 					<div class="dish_info">
 						<a href="#"><h2>Daute irure dolor</h2></a>
 						<h3>$24</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-						<li class="no-star"></li>
-					</ul>
 				</article>
 
 				<article>
 					<div class="dishe_img">
-						<a href="#"><img src="swad-images/thali-good.jpg" alt="" title=""/></a>
+						<a href="#"><img src="swad-images/channa-masala.jpg" alt="" title=""/></a>
 					</div>
 					<div class="dish_info">
 						<a href="#"><h2>Officia deserunt mollit</h2></a>
 						<h3>$60</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
 				</article>
 
 				<article>
 					<div class="dishe_img">
-						<a href="#"><img src="swad-images/thali-good.jpg" alt="" title=""/></a>
+						<a href="#"><img src="swad-images/dahi-puri.jpg" alt="" title=""/></a>
 					</div>
 					<div class="dish_info">
 						<a href="#"><h2>Pim minim veniam</h2></a>
 						<h3>$17</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
+				</article>
+
+				<article>
+					<div class="dishe_img">
+						<a href="#"><img src="swad-images/ildi.jpg" alt="" title=""/></a>
+					</div>
+					<div class="dish_info">
+						<a href="#"><h2>Fugiat nulla sint</h2></a>
+						<h3>$30</h3>
+					</div>
+				</article>
+
+				<article>
+					<div class="dishe_img">
+						<a href="#"><img src="swad-images/samosa.jpg" alt="" title=""/></a>
+					</div>
+					<div class="dish_info">
+						<a href="#"><h2>Daute irure dolor</h2></a>
+						<h3>$24</h3>
+					</div>
+				</article>
+
+				<article>
+					<div class="dishe_img">
+						<a href="#"><img src="swad-images/uttapam.jpg" alt="" title=""/></a>
+					</div>
+					<div class="dish_info">
+						<a href="#"><h2>Officia deserunt mollit</h2></a>
+						<h3>$60</h3>
+					</div>
+				</article>
+
+				<article>
+					<div class="dishe_img">
+						<a href="#"><img src="swad-images/veggie-korma.jpg" alt="" title=""/></a>
+					</div>
+					<div class="dish_info">
+						<a href="#"><h2>Pim minim veniam</h2></a>
+						<h3>$17</h3>
+					</div>
 				</article>
 
 				<article>
@@ -315,13 +400,6 @@
 						<a href="#"><h2>Fugiat nulla sint</h2></a>
 						<h3>$30</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
 				</article>
 
 				<article>
@@ -332,13 +410,6 @@
 						<a href="#"><h2>Daute irure dolor</h2></a>
 						<h3>$24</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-						<li class="no-star"></li>
-					</ul>
 				</article>
 
 				<article>
@@ -349,13 +420,6 @@
 						<a href="#"><h2>Officia deserunt mollit</h2></a>
 						<h3>$60</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
 				</article>
 
 				<article>
@@ -366,81 +430,6 @@
 						<a href="#"><h2>Pim minim veniam</h2></a>
 						<h3>$17</h3>
 					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
-				</article>
-
-				<article>
-					<div class="dishe_img">
-						<a href="#"><img src="img/dish1.jpg" alt="" title=""/></a>
-					</div>
-					<div class="dish_info">
-						<a href="#"><h2>Fugiat nulla sint</h2></a>
-						<h3>$30</h3>
-					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
-				</article>
-
-				<article>
-					<div class="dishe_img">
-						<a href="#"><img src="img/dish2.jpg" alt="" title=""/></a>
-					</div>
-					<div class="dish_info">
-						<a href="#"><h2>Daute irure dolor</h2></a>
-						<h3>$24</h3>
-					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-						<li class="no-star"></li>
-					</ul>
-				</article>
-
-				<article>
-					<div class="dishe_img">
-						<a href="#"><img src="img/dish3.jpg" alt="" title=""/></a>
-					</div>
-					<div class="dish_info">
-						<a href="#"><h2>Officia deserunt mollit</h2></a>
-						<h3>$60</h3>
-					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</article>
-
-				<article>
-					<div class="dishe_img">
-						<a href="#"><img src="img/dish4.jpg" alt="" title=""/></a>
-					</div>
-					<div class="dish_info">
-						<a href="#"><h2>Pim minim veniam</h2></a>
-						<h3>$17</h3>
-					</div>
-					<ul class="rating">
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li class="no-star"></li>
-					</ul>
 				</article>
 
 			</section>
@@ -449,7 +438,7 @@
 
 
 	<!--  start gallery  -->
-	<section class="gallery">
+	<section id="gallery" class="gallery">
 		<div class="wrapper">
 			<section class="info">
 				<div class="title">
@@ -496,7 +485,7 @@
 
 
 	<!--  start footer  -->
-	<footer>
+	<footer id="contact">
 		<div class="wrapper">
 			<!-- adresse1  -->
 			<section class="adress">
