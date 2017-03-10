@@ -140,7 +140,10 @@ footer .footer_nav ul li a{
   margin-bottom: 50px;
 }
 
-
+#value-meals {
+  margin-left: 379px;
+  margin-top: 40px;
+}
 
 
 /*    header    */
@@ -194,6 +197,11 @@ header nav ul li a:hover{
   margin-left: 50px;
 }
 
+.story-description {
+  font-family: "aleo-regular", arial;
+  text-align: center;
+  font-size: 18px;
+}
 
 
 
@@ -574,6 +582,7 @@ header nav ul li a:hover{
 .featured_dishes img {
   width: 230px;
   height: 230px;
+  border-radius: 6px;
 }
 
 
@@ -697,6 +706,7 @@ footer .footer_nav ul li a:hover{
 
 footer .copyrights .footer_logo{
     margin-bottom: 30px;
+    height: 100px;
 }
 
 footer .copyrights p{
